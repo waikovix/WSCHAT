@@ -1,0 +1,65 @@
+#title
+{
+    text-align: center;
+    border:1px solid black;
+    padding: 5px;
+    border-bottom: none;
+    margin:0px;
+}
+#creator
+{
+    border:1px solid black;
+    border-top:none;
+    margin: 0px;
+}
+#chat
+{
+    overflow-y: scroll;
+    height:400px;
+  
+    
+}
+.send
+{
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#message
+{
+      width:100%;
+    height:75px;
+}
+.send:hover
+{
+    background-color: cadetblue;
+    cursor:pointer;
+}
+#sender
+{
+    border: 1px solid black;
+    background-color:mediumblue;
+    color:aliceblue;
+    float:right;
+    border-radius: 5px;
+    width:50%;
+}
+#user
+{
+    float:right;
+    width:50%;
+}
+#receive
+{
+    float:left;
+    width:50%;
+    border: 1px solid black;
+    background-color:lightgray;
+    color:black;
+    border-radius: 5px;
+}
